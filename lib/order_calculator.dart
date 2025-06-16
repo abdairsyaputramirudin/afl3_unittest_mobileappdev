@@ -1,5 +1,5 @@
 class OrderCalculator {
-  // Fungsi ini untuk menghitung total harga barang dalam Rupiah bulat
+  // Fungsi ini untuk menghitung total harga barang
   int hitungTotal(List<int> harga) {
     int total = 0;
     for (int item in harga) {
